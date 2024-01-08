@@ -1,0 +1,59 @@
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.stat-btn {
+  height: 180px;
+  width: 40%;
+  margin: 15px;
+  background: transparent;
+  border-style: none;
+  outline: none;
+}
+.stat-name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  text-align: center;
+  font-style: normal;
+  padding: 5px;
+}
+.count {
+  font-size: 20px;
+  font-weight: 540;
+  font-style: normal;
+  padding: 5px;
+}
+.card-img {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.confirmed {
+  color: #ff073a;
+}
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.decreased {
+  color: #6c757d;
+}
+.population {
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .stats-container {
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
